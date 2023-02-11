@@ -24,7 +24,7 @@ public class Health : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             anim.SetTrigger("not hurt");
-            Debug.Log("Hurt");
+            //Debug.Log("Hurt");
         }
         else
         {
@@ -33,7 +33,7 @@ public class Health : MonoBehaviour
                 anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
-                Debug.Log("Dead");
+                //Debug.Log("Dead");
             }
         }
     }

@@ -4,9 +4,12 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
-    private float speed = 8f;
-    private float jumpingPower = 16f;
+    private float speed = 4f;
+    private float jumpingPower = 8f;
     private bool isFacingRight = true;
+    private float horizontalInput;
+
+    private Animator anim;
 
     private bool isJumping;
 
@@ -20,9 +23,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     private void Update()
     {
-        horizontal = Input.GetAxisRaw("Horizontal");
+        horizontalInput = Input.GetAxisRaw("Horizontal");
 
         if (IsGrounded())
         {
@@ -45,6 +54,7 @@ public class PlayerMovement : MonoBehaviour
         if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f && !isJumping)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            anim.SetTrigger("jump");
 
             jumpBufferCounter = 0f;
 
@@ -59,11 +69,14 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+
+        anim.SetBool("run", horizontalInput != 0);
+        anim.SetBool("grounded", IsGrounded());
     }
 
     private void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
     }
 
     private bool IsGrounded()
@@ -73,7 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Flip()
     {
-        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
+        if (isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
         {
             Vector3 localScale = transform.localScale;
             isFacingRight = !isFacingRight;

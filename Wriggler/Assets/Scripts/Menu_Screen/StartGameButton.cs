@@ -1,15 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StartGameButton : MonoBehaviour
 {
-/*
     public int gameStartScene;
 
-    private void StartGame()
+    public void StartGame()
     {
         SceneManager.LoadScene(gameStartScene);
     }
-*/
 }

@@ -117,11 +117,13 @@ public class PlayerMovement : MonoBehaviour
         if (IsWalled() && !IsGrounded() && horizontalInput != 0f)
         {
             isWallSliding = true;
+           // anim.SetTrigger("wallslide");
             rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed,float.MaxValue));
         }
         else
         {
             isWallSliding = false;
+            //anim.SetTrigger("notwallslide");
         }
     }
 

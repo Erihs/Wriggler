@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6036fbc6ef957284d955fe648c934234
+guid: 4bcd264961473f34f93865cde9b7b7d0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 500
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Asset 2_0
+      name: AssetFonam_0
       rect:
         serializedVersion: 2
-        x: 796
-        y: 2475
-        width: 195
-        height: 504
+        x: 3240
+        y: 3530
+        width: 429
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1308c29bb1ee0a54fa7f162b840dece7
-      internalID: -1575986235
+      spriteID: f814b7648a4b18841a175e139b9d81b0
+      internalID: -1486498993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset 2_1
+      name: AssetFonam_1
       rect:
         serializedVersion: 2
-        x: 1214
-        y: 2556
-        width: 309
-        height: 102
+        x: 3782
+        y: 3606
+        width: 711
+        height: 296
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,314 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e07b0203cddafd342a500508bf146560
-      internalID: -1150300101
+      spriteID: e30024fd24d79ab4f984a92a5310762a
+      internalID: 1094386362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset 2_2
+      name: AssetFonam_2
+      rect:
+        serializedVersion: 2
+        x: 4644
+        y: 2179
+        width: 1671
+        height: 1982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbc3cf5874ca164f95b6dc6bc960777
+      internalID: 1024235829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_3
+      rect:
+        serializedVersion: 2
+        x: 6645
+        y: 3403
+        width: 424
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b123b1efd043a1409e81c3677cfa6d8
+      internalID: -613079309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_4
+      rect:
+        serializedVersion: 2
+        x: 7205
+        y: 3408
+        width: 420
+        height: 329
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1835e07253f361845aaaf5aa713f6bcb
+      internalID: -1747566898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_5
+      rect:
+        serializedVersion: 2
+        x: 8124
+        y: 3135
+        width: 457
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db45f44a9cd44488cd1db03e170ce3
+      internalID: -926401280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_6
+      rect:
+        serializedVersion: 2
+        x: 8576
+        y: 2787
+        width: 339
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ae4a278e1bd6b48b744639755a0c06
+      internalID: 2144587934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_7
+      rect:
+        serializedVersion: 2
+        x: 9014
+        y: 2867
+        width: 631
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97f2e1a618eba341bb4e0467c2a62f2
+      internalID: -1935498042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2165
+        width: 739
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e672962b1d6f9924990b1eb200b70c52
+      internalID: 1085022618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 2142
+        width: 381
+        height: 607
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e8fabb1e8cef7468b86c513d8e75d7
+      internalID: 294034280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_12
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 2349
+        width: 377
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c437c780b54a645469f77e4d8f4a07e8
+      internalID: -102183151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_13
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 2321
+        width: 1451
+        height: 1176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a97c884631345489eb47d509d4357f
+      internalID: 1543787578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_14
+      rect:
+        serializedVersion: 2
+        x: 6490
+        y: 1422
+        width: 635
+        height: 866
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda932046749bde4881b1d26d727650e
+      internalID: 1501150120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_15
+      rect:
+        serializedVersion: 2
+        x: 7154
+        y: 1384
+        width: 339
+        height: 946
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91036229e5d44f24fa64a63c23170c00
+      internalID: 1384863746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_16
+      rect:
+        serializedVersion: 2
+        x: 7554
+        y: 1690
+        width: 462
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d9041d365e31a4ab4cf05a9874b300
+      internalID: -445286609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_17
+      rect:
+        serializedVersion: 2
+        x: 8223
+        y: 1991
+        width: 1111
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398315a3805383e4ebaa8882f716d7af
+      internalID: -1755755114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_18
       rect:
         serializedVersion: 2
         x: 0
-        y: 2023
-        width: 511
-        height: 304
+        y: 1106
+        width: 754
+        height: 725
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d37a65f3b813a341a88a31792655d7e
-      internalID: -590875125
+      spriteID: 3e6061386e4fed44593913d163a337b0
+      internalID: -986535634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset 2_3
+      name: AssetFonam_19
       rect:
         serializedVersion: 2
-        x: 296
-        y: 2207
-        width: 215
-        height: 76
+        x: 2082
+        y: 1139
+        width: 758
+        height: 725
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +476,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a216453315af4884ca7473735dd3db26
-      internalID: 481968106
+      spriteID: f62f0681a3be27d44ade783114a8853f
+      internalID: -1791727060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset 2_4
+      name: AssetFonam_20
       rect:
         serializedVersion: 2
-        x: 699
-        y: 1761
-        width: 390
-        height: 587
+        x: 3306
+        y: 24
+        width: 372
+        height: 1355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,356 +497,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f44afcdc6a6827478947c2c549f10c4
-      internalID: -613159870
+      spriteID: f0579f1864ac0c34e95e35ab80a60940
+      internalID: -1750323877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Asset 2_5
+      name: AssetFonam_21
       rect:
         serializedVersion: 2
-        x: 1061
-        y: 2206
-        width: 310
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 029f13e116d093549bf2ddc7218a762c
-      internalID: 1955378038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_6
-      rect:
-        serializedVersion: 2
-        x: 1820
-        y: 1692
-        width: 264
-        height: 693
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c375dbdaf7674734f96f23adfb3dbe57
-      internalID: 1066229655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_7
-      rect:
-        serializedVersion: 2
-        x: 159
-        y: 1806
-        width: 310
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3edd4a7df2300284aa5f33b4f48c2fdf
-      internalID: 1289376885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_8
-      rect:
-        serializedVersion: 2
-        x: 1320
-        y: 1899
-        width: 309
-        height: 103
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f4d44c8936058b54fb6ac71e6cb8e153
-      internalID: -912386539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_9
-      rect:
-        serializedVersion: 2
-        x: 181
-        y: 961
-        width: 266
-        height: 692
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70956e3bb78cfb54faa4f4f299d73558
-      internalID: -1770578086
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_10
-      rect:
-        serializedVersion: 2
-        x: 737
-        y: 1073
-        width: 477
-        height: 538
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 379417de7d8402846beb66fdd977458d
-      internalID: -2065823453
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_11
-      rect:
-        serializedVersion: 2
-        x: 1442
-        y: 1098
-        width: 196
-        height: 506
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 80179a9d4fd229549b954aa4a7b16861
-      internalID: 433271979
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_12
-      rect:
-        serializedVersion: 2
-        x: 1820
-        y: 1029
-        width: 195
-        height: 505
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18600147d99e3f348ae00886908dffe8
-      internalID: -389876591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_13
-      rect:
-        serializedVersion: 2
-        x: 87
-        y: 795
-        width: 213
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 593102aa0eaddab4a9e6561c0e242db9
-      internalID: 1188828571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_14
-      rect:
-        serializedVersion: 2
-        x: 820
-        y: 766
-        width: 309
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 99551264783a3ef43baf8ced54f1c2b7
-      internalID: -1266259312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_15
-      rect:
-        serializedVersion: 2
-        x: 1307
-        y: 777
-        width: 466
-        height: 201
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6606435b43a1ac943994130356ad0247
-      internalID: 1958561320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_16
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 527
-        width: 213
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd24183fb8a61474c85af49c7f8ed92c
-      internalID: 485117564
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_17
-      rect:
-        serializedVersion: 2
-        x: 507
-        y: 456
-        width: 214
-        height: 76
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c22e3fcabbd06224cb59b380e8a7bf8c
-      internalID: 1430046133
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_18
-      rect:
-        serializedVersion: 2
-        x: 1075
-        y: 359
-        width: 467
-        height: 200
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4965e07c1adced844a8cc024d20c0658
-      internalID: 536276140
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_19
-      rect:
-        serializedVersion: 2
-        x: 1698
-        y: 277
-        width: 386
-        height: 275
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: daac99f07c65fa64abcb4c02df6d9f15
-      internalID: 1798748129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_20
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 249
-        width: 361
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d32fe156aafe82c4d882f4ea402f9cd5
-      internalID: 1902033622
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Asset 2_21
-      rect:
-        serializedVersion: 2
-        x: 725
+        x: 4775
         y: 0
-        width: 215
-        height: 504
+        width: 372
+        height: 1351
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,8 +518,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 466af47173e3c544ea87f2e7a65be8be
-      internalID: -889570497
+      spriteID: a7833c7d3d84c554a88f80941e3a8954
+      internalID: 1746570074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_22
+      rect:
+        serializedVersion: 2
+        x: 5392
+        y: 24
+        width: 377
+        height: 1205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03923b0d3a782bd41824744147108131
+      internalID: -847023542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_23
+      rect:
+        serializedVersion: 2
+        x: 5665
+        y: 24
+        width: 373
+        height: 1746
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016476d789438244aa2292b15d57b2b7
+      internalID: -854968369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_24
+      rect:
+        serializedVersion: 2
+        x: 5887
+        y: 24
+        width: 372
+        height: 1355
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132dceaca51e104499876dba4127a439
+      internalID: 491491310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 678
+        width: 608
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5043ea218d95d948a698c0122647376
+      internalID: -1080423880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_26
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 715
+        width: 608
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d6c61c7922b274ba58b4290176d5cb
+      internalID: -2064970572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_27
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 24
+        width: 514
+        height: 875
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb92622b12eba1147af84f16e0c9cc8a
+      internalID: 23782338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_28
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 0
+        width: 513
+        height: 876
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6227980f2bdedf44a95092b6c683b09e
+      internalID: -2137441838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 217
+        width: 608
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f681ea255cd8f24db591b3544830955
+      internalID: 1224538221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AssetFonam_30
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 249
+        width: 608
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 046afad1aea08384d9209c9c1a3eb18d
+      internalID: 1688753682
       vertices: []
       indices: 
       edges: []
@@ -577,28 +724,37 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Asset 2_10: -2065823453
-      Asset 2_11: 433271979
-      Asset 2_21: -889570497
-      Asset 2_18: 536276140
-      Asset 2_7: 1289376885
-      Asset 2_8: -912386539
-      Asset 2_9: -1770578086
-      Asset 2_4: -613159870
-      Asset 2_20: 1902033622
-      Asset 2_1: -1150300101
-      Asset 2_3: 481968106
-      Asset 2_15: 1958561320
-      Asset 2_14: -1266259312
-      Asset 2_19: 1798748129
-      Asset 2_12: -389876591
-      Asset 2_6: 1066229655
-      Asset 2_13: 1188828571
-      Asset 2_5: 1955378038
-      Asset 2_2: -590875125
-      Asset 2_16: 485117564
-      Asset 2_17: 1430046133
-      Asset 2_0: -1575986235
+      AssetFonam_13: 1543787578
+      AssetFonam_20: -1750323877
+      AssetFonam_24: 491491310
+      AssetFonam_8: 1085022618
+      AssetFonam_19: -1791727060
+      AssetFonam_30: 1688753682
+      AssetFonam_25: -1080423880
+      AssetFonam_29: 1224538221
+      AssetFonam_16: -445286609
+      AssetFonam_9: 294034280
+      AssetFonam_7: -1935498042
+      AssetFonam_15: 1384863746
+      AssetFonam_10: -1404076397
+      AssetFonam_23: -854968369
+      AssetFonam_0: -1486498993
+      AssetFonam_2: 1024235829
+      AssetFonam_3: -613079309
+      AssetFonam_28: -2137441838
+      AssetFonam_14: 1501150120
+      AssetFonam_6: 2144587934
+      AssetFonam_12: -102183151
+      AssetFonam_11: -1441091435
+      AssetFonam_18: -986535634
+      AssetFonam_1: 1094386362
+      AssetFonam_4: -1747566898
+      AssetFonam_17: -1755755114
+      AssetFonam_5: -926401280
+      AssetFonam_26: -2064970572
+      AssetFonam_27: 23782338
+      AssetFonam_22: -847023542
+      AssetFonam_21: 1746570074
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

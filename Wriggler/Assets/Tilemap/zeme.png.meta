@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,12 +42,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
-  spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMode: 2
+  spriteExtrude: 10
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 940
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -103,7 +103,931 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: zeme_0
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 8244
+        width: 946
+        height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b8aaf17a13f104d94fe04905b353d8
+      internalID: -1988406110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_1
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 8250
+        width: 948
+        height: 547
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8d465174c312941827d49e04ceae5c
+      internalID: 132789740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_2
+      rect:
+        serializedVersion: 2
+        x: 2549
+        y: 8085
+        width: 869
+        height: 660
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399003c75e0dc5e4388260b9b0384238
+      internalID: 1995264734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_3
+      rect:
+        serializedVersion: 2
+        x: 3581
+        y: 7779
+        width: 553
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e692164c100415a43b73f0effc901975
+      internalID: -1931426697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_4
+      rect:
+        serializedVersion: 2
+        x: 4404
+        y: 8141
+        width: 948
+        height: 548
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41698f4da9cab464f9bcdf5921c47787
+      internalID: 1894678103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_6
+      rect:
+        serializedVersion: 2
+        x: 7651
+        y: 7942
+        width: 947
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c363b16f7d5b3f488edd532582480a2
+      internalID: -1883517933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_7
+      rect:
+        serializedVersion: 2
+        x: 9173
+        y: 7942
+        width: 947
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 663be75f4b775cd49806ff33d76e4d5d
+      internalID: 469857122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_8
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 6870
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce732edc27d2b104cb4e1f74108ca3dc
+      internalID: -971832573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_9
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 6860
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cd63c844d95b640a95be186fe5aa22
+      internalID: -910851267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_10
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 6829
+        width: 947
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42e2e2ad02d20944a12f7c641aa6325
+      internalID: -573600181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_11
+      rect:
+        serializedVersion: 2
+        x: 5517
+        y: 7667
+        width: 833
+        height: 917
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bfa79b3e870de4a9e4afd3f947d795
+      internalID: -2121458943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_12
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 6472
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3f2febcb99fcd478f6c09617fd1df1
+      internalID: -377391531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_13
+      rect:
+        serializedVersion: 2
+        x: 5583
+        y: 6518
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818a69cf16a017b4ebbf1ce9f1b9dbfe
+      internalID: -1715594016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_14
+      rect:
+        serializedVersion: 2
+        x: 7099
+        y: 6561
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97e0e3fa5ed22b4b9407e3470d2e16c
+      internalID: -1568841173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_15
+      rect:
+        serializedVersion: 2
+        x: 8609
+        y: 6610
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4226665e828c8c4ebcbe2ea68caada8
+      internalID: 986987345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_16
+      rect:
+        serializedVersion: 2
+        x: 9874
+        y: 6627
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f415dd7444d8d4b8cc0f7e2c43813d
+      internalID: -1620193168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_17
+      rect:
+        serializedVersion: 2
+        x: 11217
+        y: 6662
+        width: 946
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd37cf2bfc8d8754aa394b30da4961a0
+      internalID: -1103764001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 5696
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9446dad7bf47846b165231228cbb48
+      internalID: -1474338861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_19
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 5639
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e07e497591e4ef4bbbb66bc62616a4a
+      internalID: -1033640295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_20
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 5667
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88daf363b2707c841aa856a08572f558
+      internalID: 407577686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_21
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 5256
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092fd4171548b8b45b4e957be2643ada
+      internalID: -805672202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_22
+      rect:
+        serializedVersion: 2
+        x: 5583
+        y: 5253
+        width: 947
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b849590529f5a448b0cc2f0f92376e3
+      internalID: -267053945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_23
+      rect:
+        serializedVersion: 2
+        x: 7090
+        y: 5169
+        width: 947
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3b5e22c61872394093a93a0804e40c3
+      internalID: 933430332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_24
+      rect:
+        serializedVersion: 2
+        x: 8597
+        y: 5376
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2c17bb34a13f24b8758ddc9fb809c8
+      internalID: -124863616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_25
+      rect:
+        serializedVersion: 2
+        x: 9891
+        y: 5376
+        width: 948
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66408f89bf0da3438e1ae3b416a8ebe
+      internalID: 136748020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_26
+      rect:
+        serializedVersion: 2
+        x: 11188
+        y: 5405
+        width: 945
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a003651f55075e94f8f027b32bf4eae8
+      internalID: 476101414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4492
+        width: 946
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344fdf0b7c4a5d543a5521bcdc4197cc
+      internalID: 1638958442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_28
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 4535
+        width: 947
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6fe07721f16d443ae7539ac77f6824
+      internalID: -1315826426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_29
+      rect:
+        serializedVersion: 2
+        x: 2557
+        y: 4535
+        width: 947
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09508ea33da6de5488a602572d300440
+      internalID: 456640945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_30
+      rect:
+        serializedVersion: 2
+        x: 4076
+        y: 4123
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54019ed51d3416d4c972b6bb2d23dc3e
+      internalID: -1759520434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_31
+      rect:
+        serializedVersion: 2
+        x: 5623
+        y: 4154
+        width: 945
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e71a4d4473ad6c41991be59a761805b
+      internalID: 742091892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_32
+      rect:
+        serializedVersion: 2
+        x: 7131
+        y: 3964
+        width: 947
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe313d18992ed14bba83f0d758d3b01
+      internalID: -1215073599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_33
+      rect:
+        serializedVersion: 2
+        x: 8561
+        y: 4186
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1673d8af9cdf0974cb46d82226b02130
+      internalID: -1702357334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_34
+      rect:
+        serializedVersion: 2
+        x: 9974
+        y: 4232
+        width: 948
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bfa5cdd7cbafb4d8ba777e5d5c4f9d
+      internalID: 1634969702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_35
+      rect:
+        serializedVersion: 2
+        x: 11140
+        y: 4232
+        width: 947
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe07a54c4544234988225430c466b3b
+      internalID: -2141995685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_36
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 2480
+        width: 948
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a14ce7878e99f40b6887499e4a7a8d
+      internalID: -1158768645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_37
+      rect:
+        serializedVersion: 2
+        x: 5507
+        y: 2543
+        width: 947
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc7fe342fe7d74f4aa764b091cdc94fd
+      internalID: 300004696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_38
+      rect:
+        serializedVersion: 2
+        x: 6782
+        y: 2543
+        width: 948
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8457dcc43d0b2a4f8af482fa19b0eee
+      internalID: -1707960406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_39
+      rect:
+        serializedVersion: 2
+        x: 4139
+        y: 1218
+        width: 948
+        height: 945
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e116318478aec4498f9d05e40ce19d
+      internalID: -49295683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_40
+      rect:
+        serializedVersion: 2
+        x: 5511
+        y: 1185
+        width: 946
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 415bb6b0c1ed7e54da46177d45f98e0e
+      internalID: -927627963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_41
+      rect:
+        serializedVersion: 2
+        x: 6782
+        y: 1189
+        width: 948
+        height: 948
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c9f5d36d41f5c45be0bd2944cc8fd3
+      internalID: 963029786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_42
+      rect:
+        serializedVersion: 2
+        x: 4157
+        y: 45
+        width: 948
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c319caa0de2fb47bff4b0cacf75914
+      internalID: 894533694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_43
+      rect:
+        serializedVersion: 2
+        x: 5507
+        y: 0
+        width: 947
+        height: 946
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b24efe120bc72c47b45d9f36836ce2b
+      internalID: 120855452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zeme_44
+      rect:
+        serializedVersion: 2
+        x: 6782
+        y: 45
+        width: 948
+        height: 947
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cafb55df56a6994e8060c58f7e90292
+      internalID: 795538386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1038,52 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      zeme_37: 300004696
+      zeme_35: -2141995685
+      zeme_10: -573600181
+      zeme_15: 986987345
+      zeme_20: 407577686
+      zeme_28: -1315826426
+      zeme_3: -1931426697
+      zeme_22: -267053945
+      zeme_39: -49295683
+      zeme_11: -2121458943
+      zeme_13: -1715594016
+      zeme_30: -1759520434
+      zeme_7: 469857122
+      zeme_2: 1995264734
+      zeme_21: -805672202
+      zeme_34: 1634969702
+      zeme_6: -1883517933
+      zeme_44: 795538386
+      zeme_25: 136748020
+      zeme_42: 894533694
+      zeme_16: -1620193168
+      zeme_33: -1702357334
+      zeme_8: -971832573
+      zeme_4: 1894678103
+      zeme_41: 963029786
+      zeme_14: -1568841173
+      zeme_17: -1103764001
+      zeme_19: -1033640295
+      zeme_12: -377391531
+      zeme_24: -124863616
+      zeme_18: -1474338861
+      zeme_38: -1707960406
+      zeme_36: -1158768645
+      zeme_43: 120855452
+      zeme_9: -910851267
+      zeme_32: -1215073599
+      zeme_1: 132789740
+      zeme_26: 476101414
+      zeme_27: 1638958442
+      zeme_5: 1162250480
+      zeme_40: -927627963
+      zeme_23: 933430332
+      zeme_0: -1988406110
+      zeme_29: 456640945
+      zeme_31: 742091892
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

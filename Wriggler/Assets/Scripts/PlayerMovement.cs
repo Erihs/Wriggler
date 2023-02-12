@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
     private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
 
-    private float jumpBufferTime = 0.2f;
+    private float jumpBufferTime = 0.0f;
     private float jumpBufferCounter;
 
     [SerializeField] private Rigidbody2D rb;
@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferCounter -= Time.deltaTime;
         }
 
-        if (coyoteTimeCounter > 0f && jumpBufferCounter > 0f && !isJumping)
+        if (coyoteTimeCounter >= 0f && jumpBufferCounter >=0f && !isJumping)
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
             anim.SetTrigger("jump");

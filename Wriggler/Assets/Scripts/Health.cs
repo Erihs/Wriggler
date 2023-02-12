@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
@@ -8,6 +9,11 @@ public class Health : MonoBehaviour
     private float currentHealth;
     private Animator anim;
     private bool dead;
+
+    public int numOfHearts;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite emptyHeart;
 
     private void Awake()
     {
@@ -40,9 +46,35 @@ public class Health : MonoBehaviour
 
     private void Update()
     {
+        if(currentHealth > numOfHearts)
+        {
+            currentHealth = numOfHearts;
+        }
         //Resets player to checkpoint
         if(Input.GetKeyDown(KeyCode.R))
+        {
             TakeDamage(3);
+        }
+
+        for (int i = 0; i < hearts.Length; i++)
+        {
+            if(i < currentHealth)
+            {
+                hearts[i].sprite = fullHeart;
+            }
+            else
+            {
+                hearts[i].sprite = emptyHeart;
+            }
+            if (i < numOfHearts)
+            {
+                hearts[i].enabled = true;
+            }
+            else
+            {
+                hearts[i].enabled = false;
+            }
+        }
     }
 
     public void AddHealth(float _value)

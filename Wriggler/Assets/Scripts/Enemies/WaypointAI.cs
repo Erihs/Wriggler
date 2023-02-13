@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyMovement_waypoint : MonoBehaviour
+public class WaypointAI : MonoBehaviour
 {
     public float moveSpeed = 3f;
     Transform leftWaypoint, rightWaypoint;

@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 940
+  spritePixelsToUnits: 900
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1057,9 +1057,9 @@ TextureImporter:
       zeme_34: 1634969702
       zeme_6: -1883517933
       zeme_44: 795538386
-      zeme_25: 136748020
-      zeme_42: 894533694
       zeme_16: -1620193168
+      zeme_42: 894533694
+      zeme_25: 136748020
       zeme_33: -1702357334
       zeme_8: -971832573
       zeme_4: 1894678103

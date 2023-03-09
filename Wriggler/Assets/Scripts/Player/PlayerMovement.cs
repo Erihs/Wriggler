@@ -104,12 +104,23 @@ public class PlayerMovement : MonoBehaviour
 
     private bool IsGrounded()//Checks if the player is on the ground
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
     private bool IsWalled()//Checks if the player is on a wall
     {
-        return Physics2D.OverlapCircle(wallCheck.position, 0.2f, wallLayer);
+        return Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
+    }
+
+    public float groundCheckRadius = 0.2f;
+    public float wallCheckRadius = 0.2f;
+    void OnDrawGizmosSelected()
+    {
+        // Draw a yellow sphere at the transform's position
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawSphere(wallCheck.position, wallCheckRadius);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
     }
 
     private void WallSlide()

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="" />
+    <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,6 +90,7 @@
       <workItem from="1676835058825" duration="869000" />
       <workItem from="1677173610498" duration="360000" />
       <workItem from="1678028395737" duration="1398000" />
+      <workItem from="1678370066957" duration="399000" />
     </task>
     <servers />
   </component>

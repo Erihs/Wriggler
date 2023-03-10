@@ -5,7 +5,7 @@ using UnityEngine;
 public class WaypointAI : MonoBehaviour
 {
     public float moveSpeed = 3f;
-    Transform leftWaypoint, rightWaypoint;
+    public Transform leftWaypoint, rightWaypoint;
     Vector3 localScale;
     bool movingRight = true;
     Rigidbody2D rb;
@@ -14,8 +14,6 @@ public class WaypointAI : MonoBehaviour
     {
         localScale = transform.localScale;
         rb = GetComponent<Rigidbody2D>();
-        leftWaypoint = GameObject.Find ("leftWaypoint").GetComponent<Transform>();
-        rightWaypoint = GameObject.Find ("rightWaypoint").GetComponent<Transform>();
     }
 
     void Update()

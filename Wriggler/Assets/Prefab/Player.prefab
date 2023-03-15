@@ -138,7 +138,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: 5979e9403cd9c454089e9b58dc25c233, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &6356673244630612145
 MonoBehaviour:
@@ -158,8 +158,8 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  fullHeart: {fileID: 21300000, guid: 73c82a3ee2813a843a960e2689bc23d3, type: 3}
-  emptyHeart: {fileID: 21300000, guid: 860ca017a582d6f44b769a5aecb09b54, type: 3}
+  fullHeart: {fileID: 21300000, guid: 0807b3650385a5440960e32c3106b014, type: 3}
+  emptyHeart: {fileID: 21300000, guid: 8eac6862006f7224c840e1e88bdd3c1a, type: 3}
 --- !u!95 &6356673244630612146
 Animator:
   serializedVersion: 5

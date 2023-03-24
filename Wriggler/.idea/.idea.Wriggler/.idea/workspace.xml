@@ -2,33 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Audio.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds/Forestday.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds/Forestday.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds/MusicMainMenu.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds/MusicMainMenu.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds/birds-chirping-Calmer.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/MainMenuSounds/birds-chirping-Calmer.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0000.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0001.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0002.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0003.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0004.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0005.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0006.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0007.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0008.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0009.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0010.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0011.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0011.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0012.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0013.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0013.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0014.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0014.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0015.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0015.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0016.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0016.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0017.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0017.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0018.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0018.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0019.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0019.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0020.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0020.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0021.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0021.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0022.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0022.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0023.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/New Folder/sAKNE_0023.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons/SoundOff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons/SoundOff.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons/SounfOn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons/SounfOn.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons/changeSound.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/SoundIcons/changeSound.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StartMenu_Anim/gradient.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/DirtStick.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/DirtStick.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_10.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_10.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_5.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_5.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_6.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_6.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_7.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_7.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_8.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_8.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_9.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/kokps_9.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/zeme.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemap/zeme.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StartMenu_Anim/CloudMoving.playable" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StartMenu_Anim/CloudMoving.playable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0000.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0000.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0001.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0001.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0002.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0003.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0003.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0004.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0004.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0005.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0006.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0006.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0007.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0007.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0008.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0009.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0009.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0010.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0010.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0011.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0011.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0012.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0012.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0013.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0013.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0014.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0014.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0015.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0015.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0016.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0016.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0017.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0017.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0018.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0018.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0019.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0019.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0020.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0020.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0021.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0021.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0022.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0023.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/sAKNE_0023.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,12 +136,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LyEgJclhSEQCUrfdOVwIdua5JZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;Discover.Launch.Via.Unity&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -122,6 +219,9 @@
       <workItem from="1678028395737" duration="1398000" />
       <workItem from="1678370066957" duration="737000" />
       <workItem from="1678464730337" duration="650000" />
+      <workItem from="1679659845597" duration="84000" />
+      <workItem from="1679660211368" duration="1075000" />
+      <workItem from="1679662792044" duration="1086000" />
     </task>
     <servers />
   </component>
@@ -131,6 +231,7 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
 </project>

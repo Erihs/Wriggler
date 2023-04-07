@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+using UnityEngine;
+
 public class PauseMenu : MonoBehaviour
 {
-    public GameObject pauseMenu;
-    //Static so other input keys don't work while the game is paused
+    public GameObject pauseMenuCanvas;
     public static bool isPaused;
 
     void Start()
     {
-        pauseMenu.SetActive(false);
+        pauseMenuCanvas.SetActive(false);
     }
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if(isPaused)
+            if (isPaused)
             {
                 ResumeGame();
             }
@@ -31,29 +32,20 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseGame()
     {
-        pauseMenu.SetActive(true);
-        Time.timeScale = 0f;
+        pauseMenuCanvas.SetActive(true);
+        //Time.timeScale = 0f;
         isPaused = true;
     }
 
     public void ResumeGame()
     {
-        pauseMenu.SetActive(false);
-        Time.timeScale = 1f;
+        pauseMenuCanvas.SetActive(false);
+        //Time.timeScale = 1f;
         isPaused = false;
     }
-
-    /*
-    public void GoToMainMenu()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu");
-    }
-    */
 
     public void Quit()
     {
         Application.Quit();
     }
-
 }

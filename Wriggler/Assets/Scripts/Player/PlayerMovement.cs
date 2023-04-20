@@ -12,8 +12,13 @@ public class PlayerMovement : MonoBehaviour
 
     private Animator anim;
 
-    private bool isJumping;
+    //just for digging
+    Vector2 movement;
+    private bool isEarth;
+    public float digSpeed = 5f;
+    private bool isDigging = false;
 
+    private bool isJumping;
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
 
@@ -36,12 +41,50 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private Transform wallCheck;
 
+
     private void Awake()
     {
         anim = GetComponent<Animator>();
     }
     
     private void Update()
+    {
+        if (isEarth)
+        {
+            isDigging = true;
+        }
+
+        if(isDigging)//switches controls if digging
+        {
+            DigControls();
+            rb.gravityScale = 0f;
+            //Debug.Log("No");
+        }
+        else
+        {
+            IDK();
+            rb.gravityScale = 3f;
+            //Debug.Log("Yes");
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        if(isDigging)
+        {
+            DigMovement();
+            rb.gravityScale = 0f;
+        }
+        else
+        {
+            FixedIDK();
+            rb.gravityScale = 3f;
+        }
+    }
+
+
+    //Prevoiusly in update "movement"------------
+    private void IDK()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
@@ -93,7 +136,6 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
-
         //Fall Animation
         if (rb.velocity.y < 0 && !IsGrounded())
         {
@@ -105,13 +147,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
-    private void FixedUpdate()
+    private void FixedIDK()
     {
         if (!isWallJumping)
         {
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
-        }  
+        }
     }
+    //Prevoiusly in update "movement"------------
+
 
     private bool IsGrounded()//Checks if the player is on the ground
     {
@@ -181,15 +225,13 @@ public class PlayerMovement : MonoBehaviour
             Invoke(nameof(StopWallJumping), wallJumpingDuration);
         }
     }
-    
-    
 
     private void StopWallJumping()
     {
         isWallJumping = false;
     }
 
-    private void Flip()//Changes the directions which the player is facing
+    private void Flip()//Changes the directions which the player is facing(except digging)
     {
         if (isFacingRight && horizontalInput < 0f || !isFacingRight && horizontalInput > 0f)
         {
@@ -200,10 +242,53 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private IEnumerator JumpCooldown()
+    private IEnumerator JumpCooldown()//the time you have to jump after leaving a platform
     {
         isJumping = true;
         yield return new WaitForSeconds(0.4f);
         isJumping = false;
     }
+
+    
+    //Digging Mechanic ------------
+    private void DigControls()
+    {
+        //Input for digging
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        //Blend tree components
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Speed", movement.sqrMagnitude);
+    }
+    
+    private void DigMovement()//moves player when digging
+    {
+        rb.MovePosition(rb.position + movement * digSpeed * Time.fixedDeltaTime);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)//checks if player is in earth
+    {
+        if(collision.CompareTag("Earth"))
+        {
+            
+            rb.gravityScale = 0f;
+            isDigging = true;
+
+            //Debug.Log("Digging");
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Earth"))
+        {
+            rb.gravityScale = 3f;
+            isDigging = false;
+
+            //Debug.Log("NotDigging");
+        }
+    }
+    //Digging Mechanic ------------
 }

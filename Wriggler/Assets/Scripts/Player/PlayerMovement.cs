@@ -56,13 +56,13 @@ public class PlayerMovement : MonoBehaviour
 
         if(isDigging)//switches controls if digging
         {
-            DigControls();
+            DigUpdate();
             rb.gravityScale = 0f;
             //Debug.Log("No");
         }
         else
         {
-            IDK();
+            MovementUpdate();
             rb.gravityScale = 3f;
             //Debug.Log("Yes");
         }
@@ -72,19 +72,19 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isDigging)
         {
-            DigMovement();
+            DigFxdUpdate();
             rb.gravityScale = 0f;
         }
         else
         {
-            FixedIDK();
+            MovementFxdUpdate();
             rb.gravityScale = 3f;
         }
     }
 
 
-    //Prevoiusly in update "movement"------------
-    private void IDK()
+    //Prevoiusly in update "movement"
+    private void MovementUpdate()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
@@ -136,6 +136,7 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
+
         //Fall Animation
         if (rb.velocity.y < 0 && !IsGrounded())
         {
@@ -147,14 +148,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
-    private void FixedIDK()
+    //Prevoiusly in FixedUpdate "movement"
+    private void MovementFxdUpdate()
     {
         if (!isWallJumping)
         {
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         }
     }
-    //Prevoiusly in update "movement"------------
+    
 
 
     private bool IsGrounded()//Checks if the player is on the ground
@@ -250,8 +252,8 @@ public class PlayerMovement : MonoBehaviour
     }
 
     
-    //Digging Mechanic ------------
-    private void DigControls()
+    //Digging Mechanic Update
+    private void DigUpdate()
     {
         //Input for digging
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -263,7 +265,8 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("Speed", movement.sqrMagnitude);
     }
     
-    private void DigMovement()//moves player when digging
+    //Digging Mechanic Fixed Update
+    private void DigFxdUpdate()//moves player when digging
     {
         rb.MovePosition(rb.position + movement * digSpeed * Time.fixedDeltaTime);
     }
@@ -280,7 +283,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D collision)
+    private void OnTriggerExit2D(Collider2D collision)//checks if player is not in earth
     {
         if(collision.CompareTag("Earth"))
         {
@@ -290,5 +293,5 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("NotDigging");
         }
     }
-    //Digging Mechanic ------------
+    
 }

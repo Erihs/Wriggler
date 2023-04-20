@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -35,12 +36,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     [SerializeField] private Transform wallCheck;
 
-
     private void Awake()
     {
         anim = GetComponent<Animator>();
     }
-
+    
     private void Update()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
@@ -72,6 +72,7 @@ public class PlayerMovement : MonoBehaviour
 
             StartCoroutine(JumpCooldown());
         }
+        
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
@@ -92,8 +93,18 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
-    }
 
+        //Fall Animation
+        if (rb.velocity.y < 0 && !IsGrounded())
+        {
+            anim.SetBool("fall", true);
+        }
+        else
+        {
+            anim.SetBool("fall", false);
+        }
+    }
+    
     private void FixedUpdate()
     {
         if (!isWallJumping)

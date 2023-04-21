@@ -1079,7 +1079,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344056739}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071065, w: 0.7071071}
-  m_LocalPosition: {x: -0.00000022351742, y: 0.89, z: 0}
+  m_LocalPosition: {x: 0.49999887, y: -0.11000097, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2317,6 +2317,7 @@ GameObject:
   - component: {fileID: 1275010587}
   - component: {fileID: 1275010586}
   - component: {fileID: 1275010585}
+  - component: {fileID: 1275010589}
   m_Layer: 0
   m_Name: body
   m_TagString: Untagged
@@ -2355,7 +2356,7 @@ MonoBehaviour:
   speed: 3
   lineOfSite: 10
   shootingRange: 5
-  fireRate: 1
+  fireRate: 2
   bullet: {fileID: 5687140626772100251, guid: 7b37511dde537ec4b9ce030519110967, type: 3}
   bulletParent: {fileID: 344056739}
 --- !u!50 &1275010586
@@ -2447,6 +2448,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1275010589
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1275010583}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ec57bb5c8d2416149a2544c91cb1fb6d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1275874460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3848,7 +3869,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 103b31a0cafa02e4489598eeb7f71b58, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 1
+  m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -4319,6 +4340,22 @@ PrefabInstance:
     - target: {fileID: 5726138193619955778, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726138193619955779, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
+      propertyPath: m_Size.x
+      value: 3.2613342
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726138193619955779, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
+      propertyPath: m_Size.y
+      value: 1.5486442
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726138193619955779, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.043948255
+      objectReference: {fileID: 0}
+    - target: {fileID: 5726138193619955779, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.35525298
       objectReference: {fileID: 0}
     - target: {fileID: 5726138193619955780, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
       propertyPath: leftWaypoint

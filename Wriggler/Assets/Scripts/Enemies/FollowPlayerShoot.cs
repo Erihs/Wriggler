@@ -14,6 +14,13 @@ public class FollowPlayerShoot : MonoBehaviour
     public GameObject bullet;
     public GameObject bulletParent;
 
+    private Animator anim;
+
+    private void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
@@ -29,10 +36,15 @@ public class FollowPlayerShoot : MonoBehaviour
         }
         else if (distanceFromPlayer <= shootingRange && nextFireTime <Time.time)
         {
-            Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+            anim.SetTrigger("shoot");
             nextFireTime = Time.time + fireRate;
         }
 
+    }
+    
+    private void Shoot()
+    {
+        Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
     }
 
     private void OnDrawGizmosSelected()

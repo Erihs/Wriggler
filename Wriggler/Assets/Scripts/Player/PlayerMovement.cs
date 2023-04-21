@@ -54,7 +54,7 @@ public class PlayerMovement : MonoBehaviour
             isDigging = true;
         }
 
-        if(isDigging)//switches controls if digging
+        if(isDigging)//switches controls & animations if digging
         {
             DigUpdate();
             rb.gravityScale = 0f;

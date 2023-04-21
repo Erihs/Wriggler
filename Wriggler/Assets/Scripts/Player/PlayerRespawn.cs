@@ -10,14 +10,28 @@ public class PlayerRespawn : MonoBehaviour
         playerHealth = GetComponent<Health>();
     }
 
-    public void Respawn()
+    private void Update()
+    {
+        Reset();
+    }
+
+    public void Respawn()//send to last checkpoint
     {
         //TP player to checkpoint
         transform.position = currentCheckpoint.position;
         playerHealth.Respawn();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void Reset()//if "r" is pressed send to last checkpoint
+    {
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            transform.position = currentCheckpoint.position;
+            playerHealth.Respawn();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)//Activates new checkpoints
     {
         if (collision.transform.tag == "Checkpoint")
         {

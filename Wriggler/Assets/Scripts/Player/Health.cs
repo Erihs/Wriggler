@@ -51,10 +51,10 @@ public class Health : MonoBehaviour
             currentHealth = numOfHearts;
         }
         //Resets player to checkpoint
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            TakeDamage(3);
-        }
+        //if(Input.GetKeyDown(KeyCode.R))
+        //{
+            //TakeDamage(3);
+        //}
 
         for (int i = 0; i < hearts.Length; i++)
         {

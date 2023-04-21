@@ -263,6 +263,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetFloat("Horizontal", movement.x);
         anim.SetFloat("Vertical", movement.y);
         anim.SetFloat("Speed", movement.sqrMagnitude);
+
     }
     
     //Digging Mechanic Fixed Update
@@ -275,10 +276,8 @@ public class PlayerMovement : MonoBehaviour
     {
         if(collision.CompareTag("Earth"))
         {
-            
             rb.gravityScale = 0f;
             isDigging = true;
-
             //Debug.Log("Digging");
         }
     }
@@ -289,7 +288,6 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.gravityScale = 3f;
             isDigging = false;
-
             //Debug.Log("NotDigging");
         }
     }

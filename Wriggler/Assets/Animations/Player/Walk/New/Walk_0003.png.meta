@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4191e99ec12991545bafa180c3fedb02
+guid: ceac5129456ccb94a9fb31493f4e1e2e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -125,14 +125,14 @@ TextureImporter:
         width: 500
         height: 370
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1aa70ebd5e99ed4ab2a8c01402834bc
-      internalID: -1077205727
+      spriteID: 0b61f208bf8ab8442ab9f5599da697d1
+      internalID: -2070091120
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Walk_0003_0: -1077205727
+      Walk_0003_0: -2070091120
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

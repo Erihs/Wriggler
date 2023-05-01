@@ -80927,7 +80927,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -338041737, guid: 8719c836001b39b49995ba1f536a8d40, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.7688679, b: 0.7688679, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -88663,13 +88663,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6356673244630612150, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1764705
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356673244630612150, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356673244630612151, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
+      propertyPath: jumpingPower
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612156, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 2.9411764
+      value: 1.625
       objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612156, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.9411764
+      value: 0.66
       objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612157, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_Name

@@ -3,22 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Die.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Die.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Jump_Slide/Wallslide 1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Jump_Slide/Wallslide 1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Transition/trans1 (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Transition/trans1 (1).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Transition/trans1 (2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Transition/trans1 (2).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Transition/trans1 (3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Transition/trans1 (3).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/WallSlide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/WallSlide.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Assets/Menu/PauseMenu/mainmenutest.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Menu/PauseMenu/mainmenutest.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/PlayerWalk/Uptransition/transitionUP.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/PlayerWalk/Uptransition/transitionUP.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Player/PlayerWalk/transition/transition.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Player/PlayerWalk/transition/transition.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +48,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../Desktop/test\Wriggler.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../Desktop/test/Wriggler.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\erihs\OneDrive\Desktop\Game_Test" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -125,6 +115,9 @@
       <workItem from="1680888203308" duration="733000" />
       <workItem from="1681640647786" duration="145000" />
       <workItem from="1682014667421" duration="3387000" />
+      <workItem from="1683038471811" duration="146000" />
+      <workItem from="1683401471806" duration="724000" />
+      <workItem from="1683453472722" duration="503000" />
     </task>
     <servers />
   </component>

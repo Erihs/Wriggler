@@ -106,7 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  jumpingPower: 12
+  jumpingPower: 15
+  digSpeed: 5
   wallJumpingPower: {x: 4, y: 12}
   rb: {fileID: 6356673244630612144}
   groundCheck: {fileID: 6356673245595481455}
@@ -292,7 +293,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.11320752, g: 0.0936276, b: 0.07849767, a: 0}
+  m_BackGroundColor: {r: 0.14509805, g: 0.07058824, b: 0.043137256, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0

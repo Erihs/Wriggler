@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     private bool isDigging = false;
 
     private bool isJumping;
+    
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
 

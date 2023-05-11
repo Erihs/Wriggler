@@ -20,16 +20,18 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isJumping;
     
+    /*
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
-
+    
     private bool isWallJumping;
     private float wallJumpingDirection;
     private float wallJumpingTime = 0.2f;
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
     public Vector2 wallJumpingPower = new Vector2(4f, 10f);
-
+    */
+    
     private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
 
@@ -39,8 +41,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
-    [SerializeField] private LayerMask wallLayer;
-    [SerializeField] private Transform wallCheck;
+    
+    //[SerializeField] private LayerMask wallLayer;
+    //[SerializeField] private Transform wallCheck;
 
 
     private void Awake()
@@ -57,7 +60,7 @@ public class PlayerMovement : MonoBehaviour
 
         if(isDigging)//switches controls & animations if digging
         {
-            DigUpdate();
+            //DigUpdate();
             rb.gravityScale = 0f;
             //Debug.Log("No");
         }
@@ -73,12 +76,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isDigging)
         {
-            DigFxdUpdate();
+            //DigFxdUpdate();
             rb.gravityScale = 0f;
         }
         else
         {
-            MovementFxdUpdate();
+            //MovementFxdUpdate();
             rb.gravityScale = 3f;
         }
     }
@@ -114,7 +117,9 @@ public class PlayerMovement : MonoBehaviour
 
             jumpBufferCounter = 0f;
 
+            /*
             StartCoroutine(JumpCooldown());
+            */
         }
         
 
@@ -124,14 +129,17 @@ public class PlayerMovement : MonoBehaviour
 
             coyoteTimeCounter = 0f;
         }
-
+        
+        /*
         WallSlide();
         WallJump();
 
+       
         if (!isWallJumping)
         {
             Flip();
         }
+        */
 
         Flip();
 
@@ -149,6 +157,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
+    /*
     //Prevoiusly in FixedUpdate "movement"
     private void MovementFxdUpdate()
     {
@@ -157,7 +166,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         }
     }
-    
+    */
 
 
     private bool IsGrounded()//Checks if the player is on the ground
@@ -165,12 +174,15 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
+    /*
     private bool IsWalled()//Checks if the player is on a wall
     {
         return Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
     }
+    */
 
     public float groundCheckRadius = 0.2f;
+    /*
     public float wallCheckRadius = 0.2f;
     void OnDrawGizmosSelected()
     {
@@ -180,7 +192,8 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
     }
-
+    */
+    /*
     private void WallSlide()
     {
         if (IsWalled() && !IsGrounded() && horizontalInput != 0f)
@@ -233,6 +246,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isWallJumping = false;
     }
+    */
 
     private void Flip()//Changes the directions which the player is facing(except digging)
     {
@@ -245,14 +259,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    /*
     private IEnumerator JumpCooldown()//the time you have to jump after leaving a platform
     {
         isJumping = true;
         yield return new WaitForSeconds(0.4f);
         isJumping = false;
     }
+    */
 
-    
+    /*
     //Digging Mechanic Update
     private void DigUpdate()
     {
@@ -292,5 +308,6 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("NotDigging");
         }
     }
+    */
     
 }

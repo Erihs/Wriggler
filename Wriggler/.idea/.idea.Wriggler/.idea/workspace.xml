@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TEST2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TEST2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +112,7 @@
       <workItem from="1682014667421" duration="3387000" />
       <workItem from="1683038471811" duration="146000" />
       <workItem from="1683401471806" duration="724000" />
-      <workItem from="1683453472722" duration="503000" />
+      <workItem from="1683453472722" duration="1947000" />
     </task>
     <servers />
   </component>

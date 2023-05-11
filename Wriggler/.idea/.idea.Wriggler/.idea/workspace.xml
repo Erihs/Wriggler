@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +112,7 @@
       <workItem from="1683038471811" duration="146000" />
       <workItem from="1683401471806" duration="724000" />
       <workItem from="1683453472722" duration="1947000" />
+      <workItem from="1683790713560" duration="317000" />
     </task>
     <servers />
   </component>

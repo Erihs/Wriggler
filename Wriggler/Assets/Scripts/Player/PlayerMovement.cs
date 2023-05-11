@@ -129,7 +129,11 @@ public class PlayerMovement : MonoBehaviour
 
             coyoteTimeCounter = 0f;
         }
-        
+        else
+        {
+            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+
+        }
         /*
         WallSlide();
         WallJump();

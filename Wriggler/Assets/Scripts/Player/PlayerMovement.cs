@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool isJumping;
     
-    /*
+    
     private bool isWallSliding;
     private float wallSlidingSpeed = 2f;
     
@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour
     private float wallJumpingCounter;
     private float wallJumpingDuration = 0.4f;
     public Vector2 wallJumpingPower = new Vector2(4f, 10f);
-    */
+    
     
     private float coyoteTime = 0.2f;
     private float coyoteTimeCounter;
@@ -42,8 +42,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
     
-    //[SerializeField] private LayerMask wallLayer;
-    //[SerializeField] private Transform wallCheck;
+    [SerializeField] private LayerMask wallLayer;
+    [SerializeField] private Transform wallCheck;
 
 
     private void Awake()
@@ -117,9 +117,9 @@ public class PlayerMovement : MonoBehaviour
 
             jumpBufferCounter = 0f;
 
-            /*
+            
             StartCoroutine(JumpCooldown());
-            */
+            
         }
         
 
@@ -134,7 +134,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
 
         }
-        /*
+
         WallSlide();
         WallJump();
 
@@ -143,8 +143,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Flip();
         }
-        */
-
+        
         Flip();
 
         anim.SetBool("run", horizontalInput != 0);
@@ -161,7 +160,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     
-    /*
+    
     //Prevoiusly in FixedUpdate "movement"
     private void MovementFxdUpdate()
     {
@@ -170,7 +169,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         }
     }
-    */
+    
 
 
     private bool IsGrounded()//Checks if the player is on the ground
@@ -178,15 +177,15 @@ public class PlayerMovement : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
     }
 
-    /*
+    
     private bool IsWalled()//Checks if the player is on a wall
     {
         return Physics2D.OverlapCircle(wallCheck.position, wallCheckRadius, wallLayer);
     }
-    */
+    
 
     public float groundCheckRadius = 0.2f;
-    /*
+    
     public float wallCheckRadius = 0.2f;
     void OnDrawGizmosSelected()
     {
@@ -196,8 +195,8 @@ public class PlayerMovement : MonoBehaviour
         Gizmos.color = Color.blue;
         Gizmos.DrawSphere(groundCheck.position, groundCheckRadius);
     }
-    */
-    /*
+    
+    
     private void WallSlide()
     {
         if (IsWalled() && !IsGrounded() && horizontalInput != 0f)
@@ -250,7 +249,7 @@ public class PlayerMovement : MonoBehaviour
     {
         isWallJumping = false;
     }
-    */
+    
 
     private void Flip()//Changes the directions which the player is facing(except digging)
     {
@@ -263,16 +262,16 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    /*
+    
     private IEnumerator JumpCooldown()//the time you have to jump after leaving a platform
     {
         isJumping = true;
         yield return new WaitForSeconds(0.4f);
         isJumping = false;
     }
-    */
+    
 
-    /*
+    
     //Digging Mechanic Update
     private void DigUpdate()
     {
@@ -312,6 +311,4 @@ public class PlayerMovement : MonoBehaviour
             //Debug.Log("NotDigging");
         }
     }
-    */
-    
 }

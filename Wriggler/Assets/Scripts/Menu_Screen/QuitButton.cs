@@ -18,4 +18,6 @@ public class QuitButton : MonoBehaviour
         Debug.Log("Game is exiting");
         //Just to make sure its working
     }
+    
+    
 }

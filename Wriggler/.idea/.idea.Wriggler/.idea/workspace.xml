@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/CaveSounds.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/CaveSounds/536242__eminyildirim__cave-drone.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/CaveSounds/536242__eminyildirim__cave-drone.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/jumpingSound.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/jumpingSound.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/walkingSound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/walkingSound.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SoundManageScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SoundManageScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Flyer(shoot).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Flyer(shoot).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Run.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/boot.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/MovingWormPlatform.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PauseWithAnim.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SoundManageScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModule.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -134,7 +142,8 @@
       <workItem from="1685050497680" duration="227000" />
       <workItem from="1685124864877" duration="746000" />
       <workItem from="1685209734068" duration="622000" />
-      <workItem from="1685389804239" duration="2637000" />
+      <workItem from="1685389804239" duration="6396000" />
+      <workItem from="1685442594559" duration="1329000" />
     </task>
     <servers />
   </component>

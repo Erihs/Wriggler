@@ -10,7 +10,11 @@ public class PlayerMovement : MonoBehaviour
     private bool isFacingRight = true;
     private float horizontalInput;
 
+    
     private Animator anim;
+    
+    //Sounds
+    public SoundManageScript soundManager;
 
     //just for digging
     Vector2 movement;
@@ -85,20 +89,35 @@ public class PlayerMovement : MonoBehaviour
             rb.gravityScale = 3f;
         }
     }
-
+    
+    // Add this method to the PlayerMovement script
+    public void PlayWalkingSound()
+    {
+        if (IsGrounded())
+        {
+            soundManager.walkingSound.enabled = true;
+            if (!soundManager.walkingSound.isPlaying)
+            {
+                soundManager.walkingSound.Play();
+            }
+        }
+    }
 
     //Prevoiusly in update "movement"
     private void MovementUpdate()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
-
+        
+        
         if (IsGrounded())
         {
             coyoteTimeCounter = coyoteTime;
+
         }
         else
         {
             coyoteTimeCounter -= Time.deltaTime;
+
         }
 
         if (Input.GetButtonDown("Jump"))
@@ -116,6 +135,8 @@ public class PlayerMovement : MonoBehaviour
             anim.SetTrigger("jump");
 
             jumpBufferCounter = 0f;
+ 
+            soundManager.PlayJumpingSound();
 
             
             StartCoroutine(JumpCooldown());
@@ -128,6 +149,7 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
 
             coyoteTimeCounter = 0f;
+
         }
         else
         {

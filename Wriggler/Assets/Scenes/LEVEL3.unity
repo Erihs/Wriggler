@@ -46945,6 +46945,8 @@ CompositeCollider2D:
       - {x: 24.994537, y: 4.8048306}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 103663549}
 --- !u!50 &103663554
 Rigidbody2D:
   serializedVersion: 4
@@ -46982,6 +46984,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 10000
   m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &103980116
 GameObject:
   m_ObjectHideFlags: 0
@@ -55142,6 +55145,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5726138193619955777, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
@@ -55221,6 +55225,7 @@ PrefabInstance:
       value: Ant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
 --- !u!1 &555003808
 GameObject:
@@ -61100,6 +61105,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5726138193619955777, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
@@ -61211,6 +61217,7 @@ PrefabInstance:
       value: Ant (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: d223448061a5c294d95d0c143b5a4339, type: 3}
 --- !u!1 &840198054
 GameObject:
@@ -65175,7 +65182,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1110154697
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -65192,7 +65199,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &1110154698
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71389,7 +71396,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1448810026
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -71406,7 +71413,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1448810027
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74320,6 +74327,8 @@ CompositeCollider2D:
       - {x: 6.0750294, y: 0}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
+  m_UseDelaunayMesh: 0
+  m_CompositeGameObject: {fileID: 1588018554}
 --- !u!50 &1588018557
 Rigidbody2D:
   serializedVersion: 4
@@ -76372,6 +76381,7 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
+  m_UseDelaunayMesh: 0
 --- !u!1 &1591138860
 GameObject:
   m_ObjectHideFlags: 0
@@ -80304,7 +80314,7 @@ GameObject:
   m_IsActive: 1
 --- !u!95 &1807718863
 Animator:
-  serializedVersion: 5
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -80321,7 +80331,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!212 &1807718864
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -88108,7 +88118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -88230,6 +88239,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 100
   m_TargetDisplay: 0
@@ -88742,6 +88752,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2788273138748460001, guid: 4f4c2f60aeb15634595ffd9ac0924afd, type: 3}
@@ -88793,12 +88804,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f4c2f60aeb15634595ffd9ac0924afd, type: 3}
 --- !u!1001 &6356673245442139387
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 747747288, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
@@ -88831,15 +88844,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612149, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -32.22692
+      value: -1.5913467
       objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612149, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.061513007
+      value: 21.703451
       objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612149, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.36322117
+      value: 8.37331
       objectReference: {fileID: 0}
     - target: {fileID: 6356673244630612149, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -88874,4 +88887,5 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c9e72677fae59446a260b479c8f624c, type: 3}

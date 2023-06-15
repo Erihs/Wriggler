@@ -1,47 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/Seenes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/Seenes.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Backup.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Backup/Ant.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/Backup/Ant.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/checkpoint.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/checkpoint.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Freeze.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Freeze.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MovingWormPlatform.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MovingWormPlatform.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Paralaxx.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Paralaxx.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseWithAnim.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PauseWithAnim.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManageScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManageScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CameraFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Freeze.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Freeze.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MovingWormPlatform.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MovingWormPlatform.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paralaxx.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Paralaxx.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PauseWithAnim.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PauseWithAnim.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ant.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ant.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Ant.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Ant.prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManageScript.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SoundManageScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
-    </list>
+    <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +41,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../Desktop/test/Wriggler.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/test/Wriggler.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\erihs\OneDrive\Desktop\Game_Test" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -162,6 +122,7 @@
       <workItem from="1685389804239" duration="6396000" />
       <workItem from="1685442594559" duration="1329000" />
       <workItem from="1686817200723" duration="647000" />
+      <workItem from="1686854098728" duration="3000" />
     </task>
     <servers />
   </component>

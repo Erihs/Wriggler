@@ -8,4 +8,10 @@ public class PauseWithAnim : MonoBehaviour
     {
         Time.timeScale = 0f;
     }
+    
+    public SoundManageScript soundManager;
+    public void PausedSound()
+    {
+        soundManager.PlayPauseSound();
+    }
 }

@@ -103,6 +103,22 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    public void GetHurt()
+    {
+        soundManager.PlayHurtSound();
+    }
+
+    public void DeadSound()
+    {
+        soundManager.PlayDeadSound();
+    }
+
+    public void FallSoundEffect()
+    {
+        soundManager.FallSound();
+    }
+    
+
     //Prevoiusly in update "movement"
     private void MovementUpdate()
     {
@@ -262,6 +278,9 @@ public class PlayerMovement : MonoBehaviour
                 localScale.x *= -1f;
                 transform.localScale = localScale;
             }
+            
+            anim.SetTrigger("jump"); // Play the jump animation
+            soundManager.PlayJumpingSound(); // Play the jumping sound
 
             Invoke(nameof(StopWallJumping), wallJumpingDuration);
         }

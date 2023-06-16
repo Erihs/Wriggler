@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="" />
+    <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Assets/istais koks Lined.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Assets/istais koks Lined.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu/8 Bit Space Groove!_ Chill Pretty Chiptune Game Music by HeatleyBros (128 kbps).mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu/8 Bit Space Groove!_ Chill Pretty Chiptune Game Music by HeatleyBros (128 kbps).mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu/Breaking a Wood Sound Effect [Minecraft].wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu/Breaking a Wood Sound Effect [Minecraft].wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/deadSound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/deadSound.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/hurtSound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/hurtSound.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/wallslideSound.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/Player/wallslideSound.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxKindaBackground.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ParallaxKindaBackground.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Die.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Die.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fall_Hit.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fall_Hit.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Hurt.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Hurt.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/WallSlide.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/WallSlide.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/Menu/PauseMenu/mainmenutest.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/Menu/PauseMenu/mainmenutest.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Flyer(shoot).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Flyer(shoot).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cutscene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cutscene1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PauseWithAnim.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PauseWithAnim.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SoundManageScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SoundManageScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/DarkTiles.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemap/DarkTiles.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +44,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModule.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +76,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="$USER_HOME$/Desktop/test/Wriggler.exe" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../../../../Desktop/test/Wriggler.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="C:\Users\erihs\OneDrive\Desktop\Game_Test" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -123,6 +158,12 @@
       <workItem from="1685442594559" duration="1329000" />
       <workItem from="1686817200723" duration="647000" />
       <workItem from="1686854098728" duration="3000" />
+      <workItem from="1686860690067" duration="7394000" />
+      <workItem from="1686871593477" duration="1070000" />
+      <workItem from="1686874035640" duration="749000" />
+      <workItem from="1686875479043" duration="159000" />
+      <workItem from="1686875659500" duration="320000" />
+      <workItem from="1686876098162" duration="100000" />
     </task>
     <servers />
   </component>

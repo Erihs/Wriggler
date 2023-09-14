@@ -1,13 +1,17 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerRespawn : MonoBehaviour
 {
-    private Transform currentCheckpoint;//stores last checkpoint
+    private Transform currentCheckpoint; // stores the last checkpoint
     private Health playerHealth;
+    private AudioSource audioSource; // Reference to the AudioSource component
+
+    public AudioClip checkpointSound; // Assign the checkpoint sound effect in the Inspector
 
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
+        audioSource = GetComponent<AudioSource>(); // Get the AudioSource component
     }
 
     private void Update()
@@ -15,30 +19,41 @@ public class PlayerRespawn : MonoBehaviour
         Reset();
     }
 
-    public void Respawn()//send to last checkpoint
+    public void Respawn()
     {
-        //TP player to checkpoint
+        // Teleport the player to the checkpoint
         transform.position = currentCheckpoint.position;
         playerHealth.Respawn();
     }
 
-    private void Reset()//if "r" is pressed send to last checkpoint
+    private void Reset()
     {
-        if(Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             transform.position = currentCheckpoint.position;
             playerHealth.Respawn();
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)//Activates new checkpoints
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.transform.tag == "Checkpoint")
+        if (collision.CompareTag("Checkpoint"))
         {
             currentCheckpoint = collision.transform;
             collision.GetComponent<Collider2D>().enabled = false;
 
-            //Debug.Log("respawn");
+            // Get the CheckpointGlow script and start the glowing effect
+            checkpointGlow checkpointGlow = collision.GetComponent<checkpointGlow>();
+            if (checkpointGlow != null)
+            {
+                checkpointGlow.StartGlow();
+            }
+
+            // Play the checkpoint sound effect
+            if (checkpointSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(checkpointSound);
+            }
         }
     }
 }

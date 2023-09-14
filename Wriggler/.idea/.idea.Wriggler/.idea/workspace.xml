@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58d685cc-f9f8-4a80-8982-1ed770ab37e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/1CutScene.playable" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/1CutScene.playable.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/3.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/Gify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/Gify.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/level.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Assets/level.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Gify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Gify.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CutSceneOne.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CutSceneOne.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/level.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/level.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu/616799__tyops__nostalgic-ending-credits-3.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/PauseMenu/616799__tyops__nostalgic-ending-credits-3.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene/470083__sheyvan__music-orchestral-victory-fanfare.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene/470083__sheyvan__music-orchestral-victory-fanfare.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene/564122__baltiyar13__succes-beat-victory.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene/564122__baltiyar13__succes-beat-victory.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene/checkpoint.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Audio/cutscene/checkpoint.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CUT2.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CUT2.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CUT3.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/CUT3.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/cutSceneEnd.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/cutSceneEnd.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Wriggler/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefab/GameManager/GameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/GameManager/GameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets/1CutScene.playable" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Assets/1CutScene.playable" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CutSceneOne.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CutSceneOne.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cutscene1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Cutscene1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/Zari/Wood.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemap/Zari/Wood.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LEVEL3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LEVEL3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRespawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerRespawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tilemap/Jaunais/Grid_Assets.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Tilemap/Jaunais/Grid_Assets.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
@@ -36,6 +41,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Menu_Screen/QuitButton.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/DestroyTimeManagerOnEnd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Timer/TimerBackground.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/checkpointGlow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/cutSceneEnd.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.sprite@1.0.0/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameModule.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.tilemap@1.0.0/Editor/GridPaintPaletteClipboard.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -159,6 +166,8 @@
       <workItem from="1686876098162" duration="100000" />
       <workItem from="1687036651167" duration="1373000" />
       <workItem from="1691166286408" duration="26000" />
+      <workItem from="1693349529416" duration="658000" />
+      <workItem from="1694276668204" duration="4005000" />
     </task>
     <servers />
   </component>
